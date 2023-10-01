@@ -3,6 +3,7 @@ const fs = require('fs');
 
 
 /** 
+ * sample download links for testing
  * https://www.tutorialspoint.com/cg/images/cgbanner.jpg
  * https://speed.hetzner.de/100MB.bin
 */
@@ -50,7 +51,7 @@ function showDownloadingProgress(received, total) {
  */
 const downloadFile = (url, fileName) => {
     let totalFileSize = 0;
-    let received = 0; 
+    let received = 0;
 
     // Make an HTTP GET request to the provided URL
     https.get(url.trim(), (res) => {
@@ -94,7 +95,7 @@ const downloadFile = (url, fileName) => {
 
 (async function () {
     // check if downloads folder is present, if not then create
-    if (!fs.existsSync(dir)){
+    if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir);
     }
 

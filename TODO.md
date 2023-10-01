@@ -1,0 +1,3 @@
+- implement split download and merge them together
+- implement pause and resume functionality
+- implement download from leftover file incase of any error

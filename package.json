@@ -1,0 +1,14 @@
+{
+  "name": "download-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "readline-sync": "^1.4.10"
+  }
+}

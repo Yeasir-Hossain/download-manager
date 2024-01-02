@@ -18,7 +18,7 @@ This simple Node.js script allows users to download files from a specified URL w
    ```
 4.  **Run the script:**
    ```bash
-  npm start
+   npm start
    ```
 5. **Follow the prompts to enter the URL and file name.**
 
